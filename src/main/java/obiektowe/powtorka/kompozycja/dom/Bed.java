@@ -12,6 +12,10 @@ public class Bed {
         this.bedsheetDaysCounter = rnd.nextInt(30) + 1;
     }
 
+    public void cleanBed() {
+        bedsheetDaysCounter = 0;
+    }
+
     @Override
     public String toString() {
         return "Bed{" +

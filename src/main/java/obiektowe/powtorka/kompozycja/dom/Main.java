@@ -10,7 +10,10 @@ public class Main {
 
         for (Room pokoj : RoomList) {
             System.out.println(pokoj.toString());
+            pokoj.cleanRoom();
+            System.out.println(pokoj.toString());
         }
+
     }
 }
 
