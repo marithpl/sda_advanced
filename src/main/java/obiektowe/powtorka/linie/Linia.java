@@ -1,8 +1,18 @@
 package obiektowe.powtorka.linie;
 
 public class Linia {
-    int lineLength;
-    char fill;
+    private int lineLength;
+    private char fill;
+
+    public int getLineLength() {
+        return lineLength;
+    }
+
+    public void setLineLength(final int lineLength) {
+        this.lineLength = lineLength;
+    }
+
+
     public String toString() {
         return "Linia o długości: " + lineLength + " wypelniona znakiem: "+fill;
     }

@@ -20,4 +20,8 @@ public class Osoba {
     void wyprawUrodziny() {
         wiek++;
     }
+
+    public void setWiek() {
+
+    }
 }

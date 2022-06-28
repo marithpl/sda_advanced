@@ -21,4 +21,6 @@ public class OsobaDemo {
         osoba1.przywitajSie();
 
     }
+
+
 }

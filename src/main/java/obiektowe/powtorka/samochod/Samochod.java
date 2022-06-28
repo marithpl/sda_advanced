@@ -1,8 +1,32 @@
 package obiektowe.powtorka.samochod;
 
 public class Samochod {
-    String brand;
-    int millage;
+    private String brand;
+    private int millage;
+
+    public String getBrand() {
+        return brand;
+    }
+
+    public void setBrand(final String brand) {
+        this.brand = brand;
+    }
+
+    public int getMillage() {
+        return millage;
+    }
+
+    public void setMillage(final int millage) {
+        this.millage = millage;
+    }
+
+    public int getNextService() {
+        return nextService;
+    }
+
+    public void setNextService(final int nextService) {
+        this.nextService = nextService;
+    }
 
     @Override
     public String toString() {

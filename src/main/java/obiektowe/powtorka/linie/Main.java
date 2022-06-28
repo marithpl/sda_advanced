@@ -12,7 +12,7 @@ public class Main {
             System.out.println(x.toString());
             x.printLine();
             System.out.println(" ");
-        }
+        };
 
 
     }
