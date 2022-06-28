@@ -10,8 +10,19 @@ public class Main {
                 new Window(),
                 new Window()
         };
+
+        Bed[] BedList = {
+                new Bed(),
+                new Bed(),
+                new Bed()
+        };
+
         for (Window okno : WindowList) {
             System.out.println(okno.toString());
+        }
+
+        for (Bed lozko : BedList) {
+            System.out.println(lozko.toString());
         }
     }
 }
