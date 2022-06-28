@@ -3,6 +3,16 @@ package obiektowe.powtorka.samochod;
 public class Samochod {
     String brand;
     int millage;
+
+    @Override
+    public String toString() {
+        return "Samochod{" +
+                "brand='" + brand + '\'' +
+                ", millage=" + millage +
+                ", nextService=" + nextService +
+                '}';
+    }
+
     int nextService = 20000;
 
     public Samochod(final String brand, final int millage) {

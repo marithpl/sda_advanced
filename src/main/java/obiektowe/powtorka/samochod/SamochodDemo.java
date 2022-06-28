@@ -13,11 +13,13 @@ public class SamochodDemo {
 
 
         for(Samochod auto : ListaSamochodow) {
+            System.out.println(auto.toString());
             auto.presentBrandAndMillage();
             auto.millageToNextService();
             auto.addTraveledDistance(850);
             auto.millageToNextService();
         }
+
 //        Audi.presentBrandAndMillage();
 //        Audi.millageToNextService();
 //        Audi.addTraveledDistance(850);

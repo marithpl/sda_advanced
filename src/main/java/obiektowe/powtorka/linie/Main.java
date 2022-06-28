@@ -8,10 +8,12 @@ public class Main {
                 new Linia(7, '&')
         };
 
-        for (Linia x : liny)
+        for (Linia x : liny) {
+            System.out.println(x.toString());
             x.printLine();
-        System.out.println(" ");
+            System.out.println(" ");
+        }
+
+
     }
-
-
 }
